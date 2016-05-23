@@ -18,20 +18,17 @@ img {
 	width: 20%;
 
 }
-nav{
-	float:right;
+.sidebar{
+	float:left;
 	position: fixed;
-	display: inline-block;
+	display: block;
 	color: #191970;
 	width: 15%;
-	padding: 5px;
-	z-index: 1;
-	margin-top: 25px;
 	list-style-type: none;
-
-
-}
-div{
+	padding-left: 0px;
+}	
+	
+.main{
 	width: 80%;
 	display: inline-block;
 	float: right;
@@ -39,15 +36,6 @@ div{
 }
 a:hover{
 	color:#006666;
-}
-
-nav ul{
-	list-style-type: none;
-	float: right;	
-}
-nav li {
-	display: inline;
-	float: right;
 }
 
 @media only screen and (max-width: 500px){
