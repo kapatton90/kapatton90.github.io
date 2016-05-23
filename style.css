@@ -3,6 +3,7 @@ html {
 	font-family: monospace, Monaco;
 
 }
+ 
 #website-title{
 	text-align: center;
 	color: #2F4F4F;
@@ -13,34 +14,40 @@ html {
 
 }
 img {
-	position: relative;
-	width:	15%;
-	z-index: -1;
-	margin: auto;
+	float: right;
+	width: 20%;
 
 }
 nav{
-	text-align: center;
+	float:right;
 	position: fixed;
-	display: inline;
+	display: inline-block;
 	color: #191970;
-	width: 100%;
-	padding: 10px;
+	width: 15%;
+	padding: 5px;
 	z-index: 1;
+	margin-top: 25px;
+	list-style-type: none;
+
 
 }
 div{
-	margin-top: 100px;
+	width: 80%;
+	display: inline-block;
+	float: right;
+	margin-top: 50px;
 }
 a:hover{
 	color:#006666;
 }
 
 nav ul{
-	list-style-type: none;	
+	list-style-type: none;
+	float: right;	
 }
 nav li {
 	display: inline;
+	float: right;
 }
 
 @media only screen and (max-width: 500px){
